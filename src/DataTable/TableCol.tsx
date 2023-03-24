@@ -251,12 +251,11 @@ function TableCol<T>({
 						{!disableSort && nativeSortIconLeft && renderNativeSortIcon(sortActive)}
 					</ColumnSortable>
 					{column.filterable && (
-						<div style={{ display: 'block' }}>
+						<div style={{ display: 'block', border: '1px solid black' }}>
 							<input
 								name={column?.name?.toString()}
 								data-filter-id={column?.name?.toString().toLowerCase()}
 								onChange={handleFilterChange}
-								placeholder="filter"
 							/>
 						</div>
 					)}

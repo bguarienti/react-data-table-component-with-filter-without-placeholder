@@ -1,14 +1,10 @@
 # React Data Table Component
 
-**Note**: This is a clone of [https://github.com/jbetancur/react-data-table-component](https://github.com/jbetancur/react-data-table-component) with one additional feature: [Column Filtering](https://anothercodeartist.github.io/react-data-table-component/?path=/story/general--kitchen-sink). Once [jbetancur](https://github.com/jbetancur) merges the corresponding PR and publishes an updated version of his data table component, this site will get deprecated!
-
-Creating yet another React table library came out of necessity while developing a web application for a growing startup. I discovered that while there are some great table libraries out there, some required heavy customization, were missing out of the box features such as built in sorting and pagination, or required understanding the atomic structure of html tables.
-
-If you want to achieve balance with the force and want a simple but flexible table library give React Data Table Component a chance. If you require an Excel clone, then this is not the React table library you are looking for 👋
+**Note**: This is a clone of [https://github.com/anothercodeartist/react-data-table-component](https://github.com/anothercodeartist/react-data-table-component) which itself is a clone of [https://github.com/jbetancur/react-data-table-component](https://github.com/jbetancur/react-data-table-component), without the filter placeholder text. This will NOT be maintained further.
 
 # Key Features
 
-- **Filterable columns**
+- **Filterable columns without placeholder**
 - Declarative configuration
 - Built-in and configurable:
   - Sorting
@@ -19,12 +15,6 @@ If you want to achieve balance with the force and want a simple but flexible tab
 - Accessibility
 - Responsive (via x-scroll/flex)
 
-# Documentation Website
-
-The documentation contains information about installation, usage and contributions.
-
-https://anothercodeartist.github.io/react-data-table-component
-
 # Supporting React Data Table Component
 
 If you would like to support the project financially, visit
@@ -33,4 +23,3 @@ If you would like to support the project financially, visit
 <a href="https://opencollective.com/react-data-table-component" target="_blank">
 	<img src="https://opencollective.com/react-data-table-component/contribute/button@2x.png?color=blue" width="250px" />
 </a>
-
